@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# restore-test.sh — automated restore drill. Restores the latest snapshot of a
+# restore-test.sh, automated restore drill. Restores the latest snapshot of a
 # given backup into a scratch directory and verifies a known file exists, then
 # cleans up. Proves recoverability on a schedule (run weekly from cron).
 set -euo pipefail

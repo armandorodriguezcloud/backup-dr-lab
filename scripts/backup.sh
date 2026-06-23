@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# backup.sh — push homelab VM/container backups to Proxmox Backup Server (PBS)
+# backup.sh, push homelab VM/container backups to Proxmox Backup Server (PBS)
 # and prune to a tiered retention. Intended to run from cron on the PVE host.
 set -euo pipefail
 
